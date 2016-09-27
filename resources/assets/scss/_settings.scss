@@ -1,0 +1,19 @@
+/// Settings (Overrides !default foundation settings)
+/// Full list of settings can be found in foundation/settings/_setting.scss
+
+/// Global
+$global-font-size: 85%;
+$global-width: rem-calc(720);
+$global-lineheight: 1.2;
+$body-font-family: 'Source code pro', monospace, sans-serif;
+$global-flexbox: true;
+
+/// List 
+$list-style-type: square;
+$list-side-margin: 2rem;
+
+/// Tooltip
+/// Maximum width has been commented out - max-width: 10rem !important;
+$has-tip-border-bottom: 0;
+$tooltip-font-size: 1rem;
+$tooltip-radius: 4px;

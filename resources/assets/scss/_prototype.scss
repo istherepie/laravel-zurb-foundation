@@ -1,0 +1,19 @@
+/// Sheet for protoyping
+
+.bigcontainer {
+	@extend .row;
+	height: 100vh;
+}
+
+.deadcenter {
+	@include flex-grid-column(null, $grid-column-gutter);
+	@extend .align-self-middle;
+	text-align: center;
+}
+
+.loginform {
+	border: 1px solid #F2F2F2;
+	border-radius: 4px;
+	padding: 3em;
+	box-shadow: 0px 0px 8px #DBD4D4;
+}
